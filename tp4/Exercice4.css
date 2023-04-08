@@ -1,0 +1,157 @@
+.fonce
+{
+    height: 95%;
+    width: 95%;
+    background-color: rgb(124, 57, 186);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+}
+.fonce_before
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    position: absolute;
+    opacity: 0;
+    font-size: 2em;
+    font-weight: bold;
+    top: -22%;
+    animation-name: notif;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes notif {
+    0%{
+        top: -22%;
+        opacity: 0.3;
+        height: 110px;
+        width: 100%;
+        left: 0%;
+    }
+    25%{
+        opacity: 1;
+        height: 80px;
+        width: 60%;
+        top: 7%;
+        left: 15%;
+        font-size: 1em;
+    }
+    50%{
+        opacity: 1;
+        height: 100px;
+        width: 70%;
+        top: 10%;
+        left: 15%;
+        font-size: 1.3em;
+    }
+    75%{
+        opacity: 1;
+        height: 105px;
+        width: 90%;
+        top: 10%;
+        left: 5%;
+        font-size: 1.7em;
+    }
+    100%{
+        top: -22%;
+        opacity: 0.3;
+        height: 110px;
+        width: 100%;
+        left: 0%;
+    }
+    
+}
+.clair
+{
+    background-color: rgb(167, 129, 202);
+    height: 85vh;
+    width: 40%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copie
+{
+    width: 90%;
+    height: 7%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: rgb(167, 129, 202);
+}
+
+.ligne1,.ligne2,.ligne3,.ligne4,.ligne5
+{
+    color: white;
+    font-size: 1.5em;
+    padding-left: 5%;
+    position: relative;
+
+}
+#c4
+{
+    margin: 0 20%;
+    position: absolute;
+    left: 61.5%;
+    bottom: 25%;
+}
+#c3
+{
+    margin: 0 14%;
+}
+#c2
+{
+    margin: 0 13%;
+}
+#c5
+{
+    margin: 0 10%;
+    position: absolute;
+    left: 71%;
+    bottom: 25%;
+}
+#c1
+{
+    width: 8%;
+    height: 35%;
+    margin: 0 15%;
+    position: absolute;
+    left: 61%;
+    bottom: 25%;
+}
+.bloc_bouton
+{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+button
+{
+    background-color: rgb(230, 141, 32);
+    color: rgb(124, 57, 186);
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    font-weight: bold;
+}
+.clair
+{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+#copie
+{
+    font-size: 1.8em;
+}

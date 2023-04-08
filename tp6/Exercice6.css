@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(bien.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.conteneur::before
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.titre,.compteur
+{
+    z-index: 1;
+    color: white;
+}
+.compteur
+{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 2em;
+    margin-top: 45px;
+}
+h1{
+    font-size: 4em;
+
+}
+.temps
+{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+}
